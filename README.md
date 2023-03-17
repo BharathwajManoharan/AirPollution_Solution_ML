@@ -1,7 +1,9 @@
 ## Abinito 2.0 ML Hackathon
+
 > For our machine learning hackathon, we have decided to tackle the pressing issue of air pollution in Indian cities. Our chosen theme involves developing solutions to identify sources of pollution, including industrial emissions and vehicular traffic. We believe that by addressing this issue, we can make a positive impact on the health and well-being of the community and the environment.
 
 ## Packages used
+
 * Numpy
 * Pandas
 * Matplotlib
@@ -84,14 +86,14 @@ print(f"GBM MSE: {mse}")
 ## Features
 The choice of features for air quality forecasting may depend on the specific dataset and the location for which the forecasting is being done. However, some common features that are often used in air quality forecasting models include:
 
-*Temperature (°C),
-*Wind Speed (Km/h),
-*Pressure (Pa),
-*NO2 (ppm),
-*Rainfall (Cm),
-*PM10 (μg/m3),
-*PM2.5 (μg/m3),
-*AQI.
+* Temperature (°C),
+* Wind Speed (Km/h),
+* Pressure (Pa),
+* NO2 (ppm),
+* Rainfall (Cm),
+* PM10 (μg/m3),
+* PM2.5 (μg/m3),
+* AQI.
 
 In addition to these features, there may be other factors that contribute to air pollution in specific locations that could be added to the model in the future. For example, if there are specific sources of pollution that are not captured in the existing features, such as agricultural activity or natural disasters like wildfires, they could be added to the model to improve its accuracy. Additionally, new types of data sources, such as satellite imagery or social media data, could be incorporated into the model to provide additional insights into air quality patterns and sources of pollution.
 
