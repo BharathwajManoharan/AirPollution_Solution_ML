@@ -1,6 +1,8 @@
-## Abinito 2.0 ML Hackathon
+## Abinito 2.0 ML Hackathon (it took place in the library block, third floor gallery hall)
 
-> For our machine learning hackathon, we have decided to tackle the pressing issue of air pollution in Indian cities. Our chosen theme involves developing solutions to identify sources of pollution, including industrial emissions and vehicular traffic. We believe that by addressing this issue, we can make a positive impact on the health and well-being of the community and the environment.
+(was conducted on 17th of March 2023)
+
+> In Today's ML hackathon, we have decided to tackle the pressing issue of air pollution in Indian cities. Our chosen theme involves developing solutions to identify sources of pollution, including industrial emissions and vehicular traffic. We believe that by addressing this issue, we can make a positive impact on the health and well-being of the community and the environment.
 
 ## Packages used
 
@@ -79,7 +81,6 @@ y_pred = gbm.predict(X_test)
 # Evaluate the model using mean squared error
 mse = mean_squared_error(y_test, y_pred)
 print(f"GBM MSE: {mse}")
-
 
 ````
 
