@@ -85,6 +85,7 @@ print(f"GBM MSE: {mse}")
 ````
 
 ## Features
+
 The choice of features for air quality forecasting may depend on the specific dataset and the location for which the forecasting is being done. However, some common features that are often used in air quality forecasting models include:
 
 * Temperature (°C),
@@ -99,4 +100,8 @@ The choice of features for air quality forecasting may depend on the specific da
 In addition to these features, there may be other factors that contribute to air pollution in specific locations that could be added to the model in the future. For example, if there are specific sources of pollution that are not captured in the existing features, such as agricultural activity or natural disasters like wildfires, they could be added to the model to improve its accuracy. Additionally, new types of data sources, such as satellite imagery or social media data, could be incorporated into the model to provide additional insights into air quality patterns and sources of pollution.
 
 ## Status
+
+Accuracy: Close to 80% (77.3,77.8,78.6 respectively)
+
 Project is: _finished_.
+
