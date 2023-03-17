@@ -1,22 +1,23 @@
 ## Abinito 2.0 ML Hackathon
-> 
+> For our machine learning hackathon, we have decided to tackle the pressing issue of air pollution in Indian cities. Our chosen theme involves developing solutions to identify sources of pollution, including industrial emissions and vehicular traffic. We believe that by addressing this issue, we can make a positive impact on the health and well-being of the community and the environment.
 
-## Technologies and Tools
-* Python 
-* TensorFlow
-* Keras
-* OpenCV
+## Packages used
+* Numpy
+* Pandas
+* Matplotlib
+* Seabrne
+* Sklearn (Gradient Boosting Regressor and Random Forest Regressor)
+* Joblib
+* Ipython
 
-## Process
+## Models for Prediction:
 
-* Run `set_hand_histogram.py` to set the hand histogram for creating gestures. 
-* Once you get a good histogram, save it in the code folder.
-* Added gestures and label them using OpenCV which uses webcam feed. by running `create_gestures.py` and stores them in a database.
-* Add different variations to the captured gestures by flipping all the images by using `Rotate_images.py`.
-* Run `load_images.py` to split all the captured gestures into training, validation and test set. 
-* To view all the gestures, run `display_gestures.py` .
-* Train the model using Keras by running `cnn_model_train.py`.
-* Run `final.py`. This will open up the gesture recognition window which will use your webcam to interpret the trained American Sign Language gestures.
+* `Random Forest` - Random forests or random decision forests are an ensemble learning method for classification, regression.
+
+* `Gradient Boosting Machine` -  can effectively capture complex patterns and provide accurate forecasts of AQI levels, even in the presence of noisy or missing data.
+
+* `ARIMA model` - use historical AQI data to identify patterns and trends, taking into account autocorrelation and lagged values. These models can provide accurate predictions of future AQI levels, informing policy decisions and public health interventions.
+
 ## Code Examples
 
 ````
@@ -47,6 +48,9 @@ mse = mean_squared_error(y_test, y_pred)
 print(f"Random Forest MSE: {mse}")
 
 ````
+
+
+
 ````
 # Model Traiining (Gradient Boosting machine):
 
@@ -78,13 +82,18 @@ print(f"GBM MSE: {mse}")
 ````
 
 ## Features
-Our model was able to predict the 31 characters in the ASL with a prediction accuracy > 84.19%.
+The choice of features for air quality forecasting may depend on the specific dataset and the location for which the forecasting is being done. However, some common features that are often used in air quality forecasting models include:
 
-Features that can be added:
-* Deploy the project on cloud and create an API for using it.
-* Increase the vocabulary of our model
-* Incorporate feedback mechanism to make the model more robust
-* Add more sign languages
+*Temperature (°C),
+*Wind Speed (Km/h),
+*Pressure (Pa),
+*NO2 (ppm),
+*Rainfall (Cm),
+*PM10 (μg/m3),
+*PM2.5 (μg/m3),
+*AQI.
+
+In addition to these features, there may be other factors that contribute to air pollution in specific locations that could be added to the model in the future. For example, if there are specific sources of pollution that are not captured in the existing features, such as agricultural activity or natural disasters like wildfires, they could be added to the model to improve its accuracy. Additionally, new types of data sources, such as satellite imagery or social media data, could be incorporated into the model to provide additional insights into air quality patterns and sources of pollution.
 
 ## Status
 Project is: _finished_.
