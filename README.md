@@ -1,4 +1,4 @@
-## Abinito 2.0 ML Hackathon (it took place in the library block, third floor gallery hall)
+## Abinito 2.0 ML Hackathon
 
 (was conducted on 17th of March 2023)
 
